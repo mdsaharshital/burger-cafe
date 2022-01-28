@@ -1,0 +1,94 @@
+/*  fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playball&family=Prompt:wght@400;600&family=Proza+Libre:ital,wght@0,700;1,400&display=swap");
+
+/* font-family: 'Playball', cursive;
+font-family: 'Prompt', sans-serif;
+font-family: 'Proza Libre', sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Prompt", sans-serif;
+  color: white;
+  background-color: black;
+}
+.logo-text,
+.delight-cursive {
+  font-family: "Playball", cursive;
+}
+.container {
+}
+/* navbar --------*/
+header {
+  /* height: 100vh; */
+}
+
+.delight-cursive {
+  font-size: 3rem;
+}
+.hero-title {
+  font-size: 4rem;
+  font-family: "Proza Libre", sans-serif;
+  font-weight: 700;
+  color: yellow;
+}
+.hero-text {
+  font-size: 25px;
+  line-height: 38px;
+  font-weight: 300;
+}
+/* about sction */
+#about {
+  background-color: white;
+  padding: 5% 10%;
+}
+/* menu-section */
+.bg-menu-first {
+  background-color: rgb(27, 27, 27);
+}
+.bg-menu-second {
+  background-color: rgb(43, 43, 43);
+}
+.bg-menu-third {
+  background-color: rgb(51, 51, 51);
+}
+.img-for-menu {
+  z-index: 1;
+}
+/* contacts */
+#contact {
+  background-image: url(./images/contact.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input[type="text"] {
+  background: transparent;
+  padding: 10px 3rem;
+  border: 3px solid white;
+}
+input[type="email"] {
+  background: transparent;
+  padding: 10px 3rem;
+  border: 3px solid white;
+}
+.submit-btn {
+  background: transparent;
+  border: 3px solid white;
+  padding: 5px 20px;
+  color: white;
+}
+textarea {
+  background: transparent;
+  border: 3px solid white;
+  width: 340px;
+  color: grey;
+  height: 150px;
+}
+.delight-cursive p {
+  font-size: 1rem;
+}
